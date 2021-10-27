@@ -7,10 +7,16 @@ header{
 #jumbotron{
     /* margin-top: 20px; */
     height: 500px;
-    /* background-image: url(../img/jumbo-bg.png);
-    background-size: contain;
-    background-repeat: no-repeat; */
-   background-color: burlywood;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+   /* background-color: burlywood; */
+}
+.ms_returnal{
+    position: absolute;
+    top: 200px;
 }
 /* .ms_box{
     height: 200px;
