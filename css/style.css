@@ -18,3 +18,19 @@ header{
     background-color: crimson;
     border: 1px solid black;
 } */
+
+#take2{
+    height: 500px;
+    background-color: #1F1F1F;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#nuove_uscite{
+    
+    background-color: #1F1F1F;
+}
+
+.ms_border-radius{
+    border-radius: 20px;
+}
