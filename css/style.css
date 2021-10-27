@@ -21,13 +21,12 @@ header{
 
 #take2{
     height: 500px;
-    background-color: #1F1F1F;
+    background-color: cyan;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
-#nuove_uscite{
-    
+#nuove_uscite{    
     background-color: #1F1F1F;
 }
 
