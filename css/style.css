@@ -33,3 +33,7 @@ header{
 .ms_border-radius{
     border-radius: 20px;
 }
+#play-plus{
+    /* height: 250px; */
+    background-color: #BEBCBB;
+}
