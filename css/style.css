@@ -72,16 +72,20 @@ footer{
     max-width: 150px;
 }
 
-#device img {
-    opacity: 0.5;
-}
-#device img:hover {
-    opacity: 1.0;    
-}
-
 #social img{
     min-width: 100px;
     max-width: 250px;
+}
+.ms_device img {
+    opacity: 0.5;
+}
+.ms_device img:hover{
+    opacity: 1.0;
+    cursor: pointer;    
+}
+.ms_device:active{
+    color: black;
+    border-bottom: 2px solid #0072CE;
 }
 
 .ms_border-radius{
@@ -94,10 +98,7 @@ footer{
 .sm_orange{
     background-color: #CD3D0F;
 }
-.ms_active:active{
-    color: black;
-    border-bottom: 2px solid #0072CE;
-}
+
 .sm_trade{
     font-size: 15px;
     vertical-align: super;
