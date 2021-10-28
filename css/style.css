@@ -23,8 +23,8 @@ body{
     min-width: 100px;
 }
 #giochi img:hover{
-
-
+    transform: translatey(-10%);
+    transition: 0.5s;
 }
 /* .ms_returnal{
     position: absolute;
