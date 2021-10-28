@@ -62,15 +62,24 @@ body{
 }
 #play-plus img{
     max-height: 400px;
+    max-width: 600px;
 }
 
 #ps-now{
-    height: 300px;
+    height: 350px;
     background-color: #161C3B;
+}
+#ps-now img{
+    max-height: 350px;
+    max-width: 450px;
 }
 footer{
     /* height: 600px; */
     background-color: #00439C;
+}
+#sie img{
+    min-width: 100px;
+    max-width: 150px;
 }
 .sm_globe{
     height: 20px;
