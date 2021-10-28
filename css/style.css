@@ -3,7 +3,10 @@ header{
     height: 120px;
     background-color: chocolate;
 }
-
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
 #jumbotron{
     /* margin-top: 20px; */
     height: 600px;
@@ -14,6 +17,10 @@ header{
     background-position-y: top;
    /* background-color: burlywood; */
    /* position: relative; */
+}
+#jumbotron img{
+    min-height: 50px;
+    min-width: 100px;
 }
 /* .ms_returnal{
     position: absolute;
@@ -43,8 +50,11 @@ header{
     border-radius: 20px;
 }
 #play-plus{
-    /* height: 250px; */
+    height: 400px;
     background-color: #BEBCBB;
+}
+#play-plus img{
+    max-height: 400px;
 }
 #ps-now{
     height: 300px;
@@ -57,4 +67,7 @@ footer{
 .sm_globe{
     height: 20px;
     padding-right: 10px;
+}
+.sm_orange{
+    background-color: #CD3D0F;
 }
