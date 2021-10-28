@@ -1,12 +1,17 @@
 
-header{
-    height: 120px;
-    /* background-color: chocolate; */
-}
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
+header{
+    height: 120px;
+    /* background-color: chocolate; */
+}
+footer{
+    /* height: 600px; */
+    background-color: #00439C;
+}
+
 #jumbotron{
     /* margin-top: 20px; */
     height: 600px;
@@ -25,17 +30,8 @@ body{
 #giochi img:hover{
     transform: translatey(-10%);
     transition: 0.5s;
+    box-shadow: 5px 10px 15px #313131;
 }
-/* .ms_returnal{
-    position: absolute;
-    top: 200px;
-} */
-/* .ms_box{
-    height: 200px;
-    width: 250px;
-    background-color: crimson;
-    border: 1px solid black;
-} */
 
 #take2{
     height: 500px;
@@ -53,9 +49,6 @@ body{
     background-color: #1F1F1F;
 }
 
-.ms_border-radius{
-    border-radius: 20px;
-}
 #play-plus{
     height: 400px;
     background-color: #BEBCBB;
@@ -73,13 +66,26 @@ body{
     max-height: 350px;
     max-width: 450px;
 }
-footer{
-    /* height: 600px; */
-    background-color: #00439C;
-}
+
 #sie img{
     min-width: 100px;
     max-width: 150px;
+}
+
+#device img {
+    opacity: 0.5;
+}
+#device img:hover {
+    opacity: 1.0;    
+}
+
+#social img{
+    min-width: 100px;
+    max-width: 250px;
+}
+
+.ms_border-radius{
+    border-radius: 20px;
 }
 .sm_globe{
     height: 20px;
@@ -92,15 +98,18 @@ footer{
     color: black;
     border-bottom: 2px solid #0072CE;
 }
-#device img {
-    opacity: 0.5;
-  }
-#device img:hover {
-    opacity: 1.0;
-    
-  }
 .sm_trade{
     font-size: 15px;
     vertical-align: super;
 }
-
+/* *****debug***** */
+/* .ms_returnal{
+    position: absolute;
+    top: 200px;
+} */
+/* .ms_box{
+    height: 200px;
+    width: 250px;
+    background-color: crimson;
+    border: 1px solid black;
+} */
