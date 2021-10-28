@@ -1,7 +1,7 @@
 
 header{
     height: 120px;
-    background-color: chocolate;
+    /* background-color: chocolate; */
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -71,3 +71,12 @@ footer{
 .sm_orange{
     background-color: #CD3D0F;
 }
+.ms_active:active{
+    border-bottom: 2px solid #0072CE;
+}
+#device img {
+    opacity: 0.5;
+  }
+#device img:hover {
+    opacity: 1.0;
+  }
