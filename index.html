@@ -7,6 +7,7 @@
     <title>Playstation</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 </head>
 <body>
     <!-- inizio sezione header -->
@@ -23,7 +24,7 @@
             <!-- / header top -->
 
             <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <img src="./img/play_logo.svg" alt="">
@@ -34,30 +35,36 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Giochi</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Hardware</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                            Servizi
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#"></a></li>
+                          <li><a class="dropdown-item" href="#"></a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#"></a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="#">Novità</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Fai acquisti</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Supporto</a>
                       </li>
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <a class="nav-link" href="#">My Playstation</a>
+                    <button>accedi</button>
+                    <div class="btn  my-2 my-sm-0" type="submit"><i class="bi bi-search"></i></div>
+
                   </div>
                 </div>
               </nav>
@@ -72,22 +79,19 @@
     <main>
         <!-- jumbotron  top-->
 
-        <section id="jumbotron">
-            <div class="container my-2 py-5 text-white">
-                <div class="row ms_returnal">
-                    <div class="col-12 py-5">
-                        <img class="w-25 pt-5" src="./img/returnal-hero-banner-logo.png" alt="">
+        <section id="jumbotron" class="d-flex align-items-end">
+            <div class="container  text-white">
+                <div class="row">
+                    <div class="col-12 w-25">
+                        <img class="w-75 py-2" src="./img/returnal-hero-banner-logo.png" alt="">
                     </div>                
-                    <div class="col-12">
-                        <h2>Returnal</h2>
+                    <div class="col-12 py-3">                        
+                        <h2>Rompi il cerchio</h2>                   
                     </div>
-                    <div class="col-12">
-                        <h2>Rompi il cerchio</h2>
-                    </div>
-                    <div class="col-12 col-xxl-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste consequuntur quisquam porro est corporis expedita, ipsum mollitia, recusandae beatae maiores inventore aut necessitatibus qui, laudantium reprehenderit impedit! Soluta, iste.</p>
-                    </div>
-                    <div class="col-12">
+                    <div class="col-12 col-xxl-6">                        
+                        <p>Rialzati da ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su ps5</p>                   
+                   </div>
+                    <div class="col-12 py-5">
                         <button>aquista ora</button>
                     </div>
                 </div>
@@ -169,16 +173,16 @@
         <!-- /play immagini -->
 
         <!-- nuove uscite -->
-        <div id="take2">
-            <div class="container my-2 text-white">
+        <div id="take2" class="d-flex align-items-end">
+            <div class="container text-white">
                 <div class="row">                
-                    <div class="col-12">
-                        <img class="w-50" src="./img/it-takes-two-logo.png" alt="">
+                    <div class="col-12 w-25">
+                        <img class="w-75" src="./img/it-takes-two-logo.png" alt="">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 py-5">
                         <h2>avventura coop</h2>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12  py-2">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste consequuntur quisquam porro est corporis expedita, ipsum mollitia, recusandae beatae maiores inventore aut necessitatibus qui, laudantium reprehenderit impedit! Soluta, iste.</p>
                     </div>
                 </div>
@@ -290,7 +294,7 @@
                         <button>esplora</button>
                     </div>
                     <div class="col-md-6">
-                        <img class="w-100 "src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+                        <img class="w-100" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
                     </div>                    
                 </div>
             </div>
