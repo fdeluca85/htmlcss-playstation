@@ -100,7 +100,7 @@ footer{
 
 .ms_device:active{
     color: black;
-    border-bottom: 2px solid #0072CE;
+    border-bottom: 3px solid #0072CE;
 }
 
 .ms_border-radius{
