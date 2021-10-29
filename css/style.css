@@ -57,7 +57,7 @@ footer{
 }
 
 #play-plus{
-    min-height: 400px;
+    /* min-height: 400px; */
     background-color: #BEBCBB;
 }
 
@@ -67,7 +67,7 @@ footer{
 }
 
 #ps-now{
-    min-height: 350px;
+    /* min-height: 350px; */
     background-color: #161C3B;
 }
 
