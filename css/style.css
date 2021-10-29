@@ -1,32 +1,37 @@
-
+/*  ===============
+        root
+    =============== */
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
+
 header{
     height: 120px;
-    /* background-color: chocolate; */
 }
+
 footer{
-    /* height: 600px; */
     background-color: #00439C;
 }
 
+/*  ===============
+        sezioni
+    =============== */
+
 #jumbotron{
-    /* margin-top: 20px; */
     height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
-   /* background-color: burlywood; */
-   /* position: relative; */
 }
+
 #jumbotron img{
     min-height: 50px;
     min-width: 100px;
 }
+
 #giochi img:hover{
     transform: translatey(-10%);
     transition: 0.5s;
@@ -42,9 +47,11 @@ footer{
     background-position-x: center;
     background-position-y: top;
 }
+
 #take2 img{
     max-width: 300px;
 }
+
 #nuove_uscite{    
     background-color: #1F1F1F;
 }
@@ -53,6 +60,7 @@ footer{
     height: 400px;
     background-color: #BEBCBB;
 }
+
 #play-plus img{
     max-height: 400px;
     max-width: 600px;
@@ -62,6 +70,7 @@ footer{
     height: 350px;
     background-color: #161C3B;
 }
+
 #ps-now img{
     max-height: 350px;
     max-width: 450px;
@@ -76,13 +85,19 @@ footer{
     min-width: 100px;
     max-width: 250px;
 }
+
+/*  ===============
+        my style
+    =============== */
 .ms_device img {
     opacity: 0.5;
 }
+
 .ms_device img:hover{
     opacity: 1.0;
     cursor: pointer;    
 }
+
 .ms_device:active{
     color: black;
     border-bottom: 2px solid #0072CE;
@@ -91,10 +106,12 @@ footer{
 .ms_border-radius{
     border-radius: 20px;
 }
+
 .sm_globe{
     height: 20px;
     padding-right: 10px;
 }
+
 .sm_orange{
     background-color: #CD3D0F;
 }
@@ -103,7 +120,35 @@ footer{
     font-size: 15px;
     vertical-align: super;
 }
-/* *****debug***** */
+
+
+/*  ===============
+        debug
+    =============== */
+
+
+/* header{
+    height: 120px;
+    background-color: chocolate;
+} */
+
+/* footer{
+    height: 600px;
+    background-color: #00439C;
+} */
+
+/* #jumbotron{
+    margin-top: 20px;
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-color: burlywood;
+    position: relative;
+} */
+
 /* .ms_returnal{
     position: absolute;
     top: 200px;
