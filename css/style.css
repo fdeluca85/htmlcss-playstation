@@ -19,7 +19,7 @@ footer{
     =============== */
 
 #jumbotron{
-    height: 600px;
+    min-height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ footer{
 }
 
 #take2{
-    height: 600px;
+    min-height: 400px;
     background-color: cyan;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -57,7 +57,7 @@ footer{
 }
 
 #play-plus{
-    height: 400px;
+    min-height: 400px;
     background-color: #BEBCBB;
 }
 
@@ -67,7 +67,7 @@ footer{
 }
 
 #ps-now{
-    height: 350px;
+    min-height: 350px;
     background-color: #161C3B;
 }
 
