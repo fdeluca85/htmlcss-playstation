@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    height: 120px;
+    height: 150px;
 }
 
 footer{
@@ -19,7 +19,7 @@ footer{
     =============== */
 
 #jumbotron{
-    min-height: 600px;
+    min-height: 700px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
